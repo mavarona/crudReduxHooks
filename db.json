@@ -1,0 +1,13 @@
+{
+    "books": [{
+            "id": 1,
+            "title": "Learning React",
+            "price": 30
+        },
+        {
+            "id": 2,
+            "title": "React and Redux",
+            "price": 40
+        }
+    ]
+}
