@@ -2,8 +2,8 @@
   "books": [
     {
       "id": 1,
-      "title": "Learning React",
-      "price": 30
+      "title": "React",
+      "price": "40"
     },
     {
       "id": 2,

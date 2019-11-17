@@ -13,7 +13,7 @@ const Products = () => {
   useEffect(() => {
     const loadProducts = () => dispatch(getProductsAction());
     loadProducts();
-  }, []);
+  }, [dispatch]);
 
   const loading = useSelector(state => state.products.loading);
   const error = useSelector(state => state.products.error);
@@ -31,8 +31,7 @@ const Products = () => {
           <table className="table table-striped">
             <thead className="bg-primary table-dark">
               <tr>
-                <th scope="col"> Título </th>
-                <th scope="col"> Precio </th>
+                <th scope="col"> Título </th> <th scope="col"> Precio </th>
                 <th scope="col"> Acciones </th>
               </tr>
             </thead>
